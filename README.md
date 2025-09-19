@@ -83,9 +83,14 @@ The project follows **Clean Architecture** principles and is structured in layer
 ---
 
 ## 🐳 Docker Setup
-  ```bash
-  docker-compose up -d
-
+ ```bash
+docker-compose up -d
+```
+**Then install dependencies and start the app:**
+```bash
+npm install
+npm run start:dev
+```
 ---
 ## 🧪 Testing
 
@@ -100,3 +105,4 @@ npm run test:watch
 
 # Run only E2E tests
 npm run test:e2e
+
